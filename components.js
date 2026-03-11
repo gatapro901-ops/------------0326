@@ -1,0 +1,1 @@
+function createMenuItem(name, price) { const menuItem = document.createElement('li'); menuItem.textContent = `${name} ${price}﷼`; return menuItem; } const menuList = document.querySelector('#menu ul'); const menuItem1 = createMenuItem('طاعميه', 5); const menuItem2 = createMenuItem('فول', 2); menuList.appendChild(menuItem1); menuList.appendChild(menuItem2);
