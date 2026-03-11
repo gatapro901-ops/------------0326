@@ -1,0 +1,1 @@
+const menuSection = document.getElementById('menu'); menuSection.addEventListener('mouseover', () => { menuSection.style.transform = 'scale(1.1)'; }); menuSection.addEventListener('mouseout', () => { menuSection.style.transform = 'scale(1)'; });
